@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Dang Viet Tung</title>
+    </head>
+    <body>
+        <div class="header light">
+            <img src="assets/images/avatar.JPG" class="avatar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#exp">experiences</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div id="home" style="height: 1px; width: 100%; top: 0px; position: absolute;"></div>
+        <div class="image-container semi-bold">
+            <img src="assets/images/right_back.png" alt="right" class="right-back-img">
+            <img src="assets/images/right_back.png" alt="x-right" class="ext-right-back-img">
+            <img src="assets/images/cartoon.png" alt="left" class="left-img">
+            <img src="assets/images/right.png" alt="right" class="right-img">
+            <div class="left-doc">
+                <div class="left-hidden-doc">
+                    <h1>Greetings</h1>
+                    <h2 style="margin-right: 5%;">from a</h2>
+                </div>
+                <h1>student</h1>
+            </div>
+            <div class="right-doc">
+                <div class="right-hidden-doc">
+                    <h1>"Hello, World!"</h1>
+                    <h2 style="margin-left: 5%;">from a</h2>
+                </div>
+                <h1>&lt;coder&gt;</h1>
+            </div>
+        </div>
+
+        <div id="about"></div>
+        <div class="cv-element light">
+            <h4 class="element-header semi-bold">ABOUT ME</h4> 
+            <div class="container">
+                <div class="row">
+                    <h4 class="col-2 semi-bold">Name:</h4>
+                    <h4 class="col">Dang Viet Tung.</h4>
+                </div>
+                <div class="row">
+                    <h4 class="col-2 semi-bold">Age:</h4>
+                    <h4 class="col">20 years old.</h4>
+                </div>
+                <div class="row">
+                    <h4 class="col-2 semi-bold">Education:</h4>
+                    <h4 class="col">University of Science, Technology and Communication (aka USTH), in progress.</h4>
+                </div>
+                <div class="row">
+                    <h4 class="col-2 semi-bold">Major:</h4>
+                    <h4 class="col">Information and Communication Technology (aka ICT), third-year student.</h4>
+                </div>
+                <div class="row">
+                    <h4>My plan is to become a full-stack web application developer, I consider myself a responsible and orderly person. I am looking forward to my first work experience.</h4>
+                </div>
+            </div> 
+        </div>
+
+        <div id="exp"></div>
+        <div class="cv-element light">
+            <h4 class="element-header semi-bold">EXPERIENCES</h4>
+            <div class="row">
+                <div class="col card" style="width: 15%; margin: 3%;">
+                    <img src="assets/images/DatingApp.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title semi-bold">Dating Application for Desktop</h5>
+                        <p class="card-text">I led a group project that cloned the Bumble dating application with OOP and the TKinter library in Python and MySQL for database controller.</p>
+                        <a href="https://github.com/MalenQuilla/DatingApp" target="_blank" class="btn btn-primary">Github repository</a>
+                    </div>
+                </div>
+                <div class="col card" style="width: 15%; margin: 3%;">
+                    <img src="assets/images/DSP.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title semi-bold">Guitar Tunner Application for Desktop</h5>
+                        <p class="card-text">I contributed to a group project that processed Digital Signals for tuning the guitar strings with Jupyter Notebook.</p>
+                        <a href="https://github.com/MalenQuilla/DSP" target="_blank" class="btn btn-primary">Github repository</a>
+                    </div>
+                </div>
+                <div class="col card" style="width: 15%; margin: 3%;">
+                    <img src="assets/images/Coddin.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title semi-bold">Experiences on CodinGame platform</h5>
+                        <p class="card-text">I am currently practicing on the CodinGame platform for Algorithms with Python.</p>
+                        <br>
+                        <a href="https://www.codingame.com/profile/a8f19397ba5eef9203688132c0cd5bc95442764" target="_blank" class="btn btn-primary">CodinGame profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cv-element semi-bold">
+            <h4 class="element-header" id="contact">Contact Me</h4>
+            <div class="contact">
+                <div class="cont-btn" role="button" onclick="email_copy()">
+                    <img src="assets/icons/email.png" class="cont-icon">
+                    <h4 id="email">Email</h4>
+                </div>
+                <a href="https://www.facebook.com/6nTte1v" target="_blank" class="cont-btn">
+                    <img src="assets/icons/facebook.png" class="cont-icon">
+                    <h4 id="facebook">facebook</h4>
+                </a>
+                <a href="https://www.instagram.com/_alliuqnelam_/" target="_blank" class="cont-btn">
+                    <img src="assets/icons/instagram.png" class="cont-icon">
+                    <h4 id="instagram">instagram</h4>
+                </a>
+                <a href="https://github.com/MalenQuilla" target="_blank" class="cont-btn">
+                    <img src="assets/icons/github.png" class="cont-icon">
+                    <h4 id="github">github</h4>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer light">
+            <a href="MyCV.html">@2023 Dang Viet Tung</a>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
